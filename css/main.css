@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Helvetica, Arial, sans-serif;
+}
+nav{
+   display: flex;
+   justify-content: space-between;
+   position: fixed;
+   width: 100%;
+   background-color: #ffff;
+   margin-top: -100px;
+   border: ;
+}
+.nav img{
+  
+}
+.nucleo{
+    height: 90px;
+    width: 130px;
+}
+.nav_words{
+    margin-top: 30px;
+}
+.nav_words img{
+    padding-left: 20px;
+    height: 30px;
+    width: 30px;
+}
+.nav_word button{
+    margin-top: 30px;
+    height: 30px;
+    width: 100px;
+    border: none;
+    font-size: 15p;
+}
+.nav_word button:hover{
+    animation: backwards;
+    background-color: #ffff;
+    cursor: pointer;
+}
+.nav_word img{
+    padding-left: 20px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: -10px;
+}
+.nav_words button{
+    padding-top: -30px;
+    width: 90px;
+    height: 30px;
+}
+.top{
+    margin: 100px;
+}
+.banner img{
+    width: 750px;
+    height: 450px;
+}
+.banner_right{
+    text-align: right;
+}
+.cars{
+    display: flex;
+    justify-content: space-between;
+}
+.banner_right img{
+    height: 200px;
+    width: 150;
+}
+.banner_right ul{
+    list-style: none;
+    text-align: left;
+}
+.mar{
+    height: 200px;
+    width: 150px;
+    margin-right: 150px;
+}
+.mar ul li{
+    width: 200px;
+}
+
+.under_nav ul{
+    list-style: none;
+}
+.under_banner{
+    text-align: right;
+    width: 80%;
+    margin-left: 250px;
+    background-color: rgb(194, 191, 191);
+    margin-top: -160px;
+    z-index: auto;
+    height: 300px;
+}
+.under_banner p{
+    text-align: left;
+    margin-left: 550px;
+    padding-top: 30px;
+}
+.under_banner ul{
+    list-style: none;
+}
+.men{
+    margin-right: 75px;
+}
+.men img{
+    width: 40px;
+    height: 40px;
+    margin-left: -2px;
+}
+.trophy{
+    display: flex;
+    justify-content: space-between;
+    max-width: 75%;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+.trophy ul{
+    text-align: center;
+}
+.trophy_img{
+    height: 35px;
+    width: 30px;
+    margin-right: 20px;
+}
+.tropy{
+    height: 35px;
+    width: 30px;
+    margin-right: 30px;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding-top: 100px;
+    margin-left: 100px;
+}
+.organ{
+    max-width: 80%;
+    /* position: relative; */
+}
+.organ:hover{
+    opacity: 40%;
+    cursor: pointer; 
+     
+}
+.hover{
+    width: 313.06px;
+    height: 189.56px;
+    background-color: rgba(128, 128, 128, 0.199);
+    
+    margin-top: -189.56px;
+    /* position: absolute; */
+}
+
+
+.inhover{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.hover h4{
+    text-align: center;
+    margin-top: 70px;
+    
+}
+.dom{
+    height: 12px;
+    width: 12px;
+}
+.pre{
+   padding-top: 50px;
+   margin-left: 30px;
+}
+.line{
+    margin-top: -30px;
+}
+.line h5{
+    padding-top: 30px;
+    word-spacing: 2px;
+}
+.line p img{
+    padding-left: 15px;
+    margin-left: -10px;
+}
+.line p{
+    font-size: smaller;
+}
+.more{
+    text-align: center;
+    margin: 50px;
+}
+.bottom_banner img{
+    margin: 30px;
+    width: 700px;
+    height: 150px;
+    text-align: center;
+    margin-left: 300px;
+}
+.bottom_banner img:hover{
+    opacity: 60%;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    margin: 40px;
+}
+.logoimg{
+    justify-content: space-between;
+}
+.logoimg img{
+    padding-left: 20px;
+}
+.logoimg img:hover{
+    width: 40px;
+    height: 40px;
+    margin-top: -200px;
+}
+footer p{
+   font-size: small;
+}
